@@ -132,18 +132,5 @@ public class VarastoTest {
         assertEquals(2.0,tmp.getSaldo(),vertailuTarkkuus);
        
     } 
-
-
-    @Test
-    public void konstruktoriTesti4() {
-    	
-    	//public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-    	Varasto tmp = new Varasto(5,2);
-    	
-        assertEquals(5.0,tmp.getTilavuus(),vertailuTarkkuus);
-        assertEquals(1.0,tmp.getSaldo(),vertailuTarkkuus);
-       
-    } 
-    
     
 }
