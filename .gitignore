@@ -1,0 +1,5 @@
+# Files that end with .tmp
+*.tmp
+
+# Directory /build
+/build/
