@@ -141,7 +141,7 @@ public class VarastoTest {
     	Varasto tmp = new Varasto(5,2);
     	
         assertEquals(5.0,tmp.getTilavuus(),vertailuTarkkuus);
-        assertEquals(2.0,tmp.getSaldo(),vertailuTarkkuus);
+        assertEquals(1.0,tmp.getSaldo(),vertailuTarkkuus);
        
     } 
     
