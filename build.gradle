@@ -34,9 +34,9 @@ dependencies {
 mainClassName = 'main.Main'
 
 jar {
-    manifest {
-        attributes 'Main-Class': 'main.Main'
-    }
+  manifest {
+    attributes 'Main-Class' : 'main.Main'
+  }
 }
 
 jacocoTestReport {
